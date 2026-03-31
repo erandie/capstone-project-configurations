@@ -1,3 +1,10 @@
+spring:
+  application:
+    name: enrollment-service
+  cloud:
+    config:
+      uri: http://localhost:9000
+
 eureka:
   client:
     service-url:
